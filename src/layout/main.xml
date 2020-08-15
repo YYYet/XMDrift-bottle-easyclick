@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScrollView
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xsi:noNamespaceSchemaLocation="layout.xsd"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+>
+
+
+    <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+    >
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                  android:layout_width="match_parent">
+        <TextView
+                android:layout_height="wrap_content"
+                android:tag="Spinner_text"
+                android:text="模式选择："
+                android:layout_width="wrap_content"/>
+        <Spinner android:layout_height="wrap_parent"
+                 android:layout_width="wrap_parent"
+                 android:tag="model"
+                 android:text="扔瓶子|捡瓶子手机版|捡瓶子模拟器版|网络自动聊天|文本库自动聊天|扔->捡->聊|捡->聊"
+                 android:textColor="#669999"
+                 android:textSize="14dp"
+                 android:gravity="center"
+        />
+
+    </LinearLayout>
+        <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#7a7374" />
+        <TextView
+                android:layout_height="wrap_content"
+                android:text="扔瓶子设置："
+                android:layout_width="wrap_content"/>
+        <CardView>
+            <LinearLayout android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:gravity="center_vertical"
+                          android:tag="l1"
+                          android:layout_width="match_parent">
+
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:tag="mark"
+                          android:minHeight="100dp"
+                          android:maxLines="1000"
+                          android:hint="这里是丢漂流瓶时的文本"/>
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+
+                    <CheckBox
+                            android:layout_height="wrap_content"
+                            android:tag="giveUpOrNot"
+                            android:layout_width="wrap_content"
+                            android:text="扔瓶子速度"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="giveUpValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="扔瓶子速度(单位秒)"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </CardView>
+        <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#7a7374" />
+        <TextView
+                android:layout_height="wrap_content"
+                android:text="捡瓶子设置："
+                android:layout_width="wrap_content"/>
+        <CardView>
+            <LinearLayout android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:gravity="center_vertical"
+                          android:layout_width="match_parent">
+                <CheckBox
+                        android:layout_height="wrap_content"
+                        android:tag="diyReplayOrNot"
+                        android:layout_width="wrap_content"
+                        android:text="自定义回复"></CheckBox>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:tag="mark2"
+                          android:minHeight="100dp"
+                          android:maxLines="1000"
+                          android:hint="自定义回复"/>
+
+                <CheckBox
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:tag="btimerOrNot"
+                        android:text="运行时长设置"></CheckBox>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:tag="btimerValue"
+                          android:minHeight="100dp"
+                          android:maxLines="1000"
+                          android:hint="(单位分)"/>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+                    <CheckBox
+                            android:layout_height="wrap_content"
+                            android:tag="getOrNot"
+                            android:layout_width="wrap_content"
+                            android:text="捡瓶子速度"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="getValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="捡瓶子速度(单位秒)"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </CardView>
+        <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#7a7374" />
+        <TextView
+                android:layout_height="wrap_content"
+                android:text="自动聊天设置："
+                android:layout_width="wrap_content"/>
+        <CardView>
+            <LinearLayout android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:gravity="center_vertical"
+                          android:layout_width="match_parent">
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+
+                    <CheckBox
+                            android:layout_height="wrap_content"
+                            android:tag="replayOrNot"
+                            android:layout_width="wrap_content"
+                            android:text="回复速度"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="replayValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="回复时间(单位秒)"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+
+                     <CheckBox
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:tag="timerOrNot"
+                     android:text="运行时长设置"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="timerValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="聊天时长(单位分)"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+                    <CheckBox
+                            android:layout_height="wrap_content"
+                            android:tag="autoReplayOrNot"
+                            android:layout_width="wrap_content"
+                            android:text="全局回复"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="autoReplayValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="未匹配到内容通用回复"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent">
+                    <CheckBox
+                            android:layout_height="wrap_content"
+                            android:tag="PicReplayOrNot"
+                            android:layout_width="wrap_content"
+                            android:text="收到图片回复"></CheckBox>
+                    <EditText android:layout_width="wrap_parent"
+                              android:layout_height="wrap_content"
+                              android:tag="picautoReplayValue"
+                              android:minHeight="100dp"
+                              android:maxLines="1000"
+                              android:hint="收到图片通用回复"/>
+                </LinearLayout>
+            </LinearLayout>
+        </CardView>
+
+
+        <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#7a7374" />
+        <TextView
+                android:layout_height="wrap_content"
+                android:text="全局防封设置："
+                android:layout_width="wrap_content"/>
+        <CardView>
+            <LinearLayout android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:gravity="center_vertical"
+                          android:layout_width="match_parent">
+                <CheckBox
+                        android:layout_height="wrap_content"
+                        android:tag="diyAfter"
+                        android:layout_width="wrap_content"
+                        android:text="自定义回复后缀"></CheckBox>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:tag="after"
+                          android:minHeight="100dp"
+                          android:maxLines="1000"
+                          android:hint="自定义后缀以----隔开(注意----是英文下的)"/>
+            </LinearLayout>
+        </CardView>
+    </LinearLayout>
+</ScrollView>

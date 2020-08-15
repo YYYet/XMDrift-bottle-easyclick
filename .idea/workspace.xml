@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c0ef4d0-e8b0-4411-a5e3-79a452905b20" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f7OU6E82qK0fryFQAXWZYo0rAe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/项目/自动注册/taobo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c0ef4d0-e8b0-4411-a5e3-79a452905b20" name="Default Changelist" comment="" />
+      <created>1595565676812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595565676812</updated>
+      <workItem from="1595565695925" duration="6351000" />
+      <workItem from="1595649466318" duration="318000" />
+      <workItem from="1595663569685" duration="3438000" />
+      <workItem from="1595743696690" duration="1818000" />
+      <workItem from="1595745556320" duration="1243000" />
+      <workItem from="1595749598408" duration="79000" />
+      <workItem from="1595907088956" duration="2108000" />
+      <workItem from="1595914935082" duration="142000" />
+      <workItem from="1595916248820" duration="366000" />
+      <workItem from="1595916631951" duration="373000" />
+      <workItem from="1595917022963" duration="14554000" />
+      <workItem from="1595945531604" duration="4360000" />
+      <workItem from="1595950230346" duration="817000" />
+      <workItem from="1595995516155" duration="18122000" />
+      <workItem from="1596018929420" duration="2626000" />
+      <workItem from="1596084574817" duration="7962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1595917003857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1080/-2160.-479.720.1280@0.0.1920.1080" timestamp="1595917003857" />
+    <state x="463" y="185" key="SettingsEditor" timestamp="1595917007807">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="463" y="185" key="SettingsEditor/0.0.1920.1080/-2160.-479.720.1280@0.0.1920.1080" timestamp="1595917007807" />
+    <state x="425" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1595995558771">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="425" y="417" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-2160.-479.720.1280@0.0.1920.1080" timestamp="1595950433863" />
+    <state x="425" y="417" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1595995558771" />
+    <state x="309" y="292" key="new project wizard" timestamp="1595924116399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="309" y="292" key="new project wizard/0.0.1920.1080/-2160.-479.720.1280@0.0.1920.1080" timestamp="1595924116399" />
+    <state x="637" y="252" key="run.anything.popup" timestamp="1595746798356">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="637" y="252" key="run.anything.popup/0.0.1920.1080/-2160.-479.720.1280@0.0.1920.1080" timestamp="1595746798356" />
+  </component>
+</project>
